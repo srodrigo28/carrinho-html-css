@@ -45,7 +45,7 @@ header{
     align-items: center;
     justify-content: space-between;
 
-    border-bottom: 1px solid var(--color--brand-color);
+    border-bottom: 3px solid var(--color--brand-color);
     padding: 2.4rem 3.2rem;
 }
 /*** Divi Main */
@@ -61,13 +61,14 @@ main{
 }
 ::-webkit-scrollbar{
     width: 1rem;
+    
 }
 ::-webkit-scrollbar-thumb{
     background-color: var(--color--brand-color);
     border-radius: 1.rem;
 }
 ::-webkit-scrollbar-track{
-    background-color: var(--color-background-color);
+    background-color: var(--color--brand-color);
 }
 main .item{
     display: flex;
@@ -110,7 +111,7 @@ main .item .price-qty .qty button{
     border-radius: .8rem;
     border: 1px solid var(--color--brand-color);
     background-color: transparent;
-    color: var(--color--brand-color--light);
+    color: var(--color-text-color-primary);
     font-size: 1.6rem;
 }
 main .item .price-qty .qty button.add{
@@ -122,9 +123,6 @@ main .item .price-qty .qty button.add:hover{
 }
 main .item .price-qty .qty button.minus{
     cursor: pointer;
-}
-main .item .price-qty .qty button.minus:hover{
-    background-color: red;
 }
 /*** Divi Footer */
 footer{
